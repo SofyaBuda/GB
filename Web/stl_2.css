@@ -1,0 +1,38 @@
+/* 
+CSS (Cascading Style Sheets) каскадные таблицы стилей. 
+Название свойства: Значение;
+
+css селектор тега, элемента <=> htlm элемент указанного типа, у которых в {} указываются свойства 
+p   <=>   <p>
+
+id селектор <=> атрибуту тега
+my-id   <=>   <p id="my-id">
+
+class селектор = класс тега
+.my-class   <=>   <a class="my-class" 
+
+селектор атрибута   <=>    'элементы на странице с указанным атрибутом
+img[scr]    <=>    <img scr="myimage.png">  но не <img>
+
+селектор псевдокласса   <=>   указанные элементы в случае определенного состояния, например наведения курсора
+a.hover      <=>     <a> при наведении курсора на ссылку
+
+*/
+
+html {font-size: 15px;     /* px пиксели. базовый шрифт 15 пикселей в высоту */
+        font-family: 'Roboto', sans-serif;}
+
+body {background-color: rgb(red, green, blue);}
+
+h1 {color: brown;}
+
+a {color: blueviolet;}
+
+a:hover {color: blue;}
+
+img {width: 20vh;           /* 20% от самой картинки */
+    margin-left: 25px;}
+
+.big_txt {font-size: 1.4rem;}  /* на 40% шрифт увеличили */
+
+ul {list-style-type: square;}

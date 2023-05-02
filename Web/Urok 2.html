@@ -1,0 +1,67 @@
+<!-- 
+HTML (HyperText Markup Language) язык разметки гипертекста. На самом деле просто разметка тегами области верстки
+
+head - настройка, загрузка файлов
+body - основной контент, элементы страницы
+
+Элемент состоит из открывающего и закрывающего тегов, между ними контент
+в теге могут быть атрибуты через =""  
+есть теги без закрывающей пары
+-->
+
+
+<!-- '!'- вставка болванки, Ctrl+Spase - вызов еммета -->
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Document</title>
+    <link rel="stylesheet" href="stl_2.css">   <!-- Подключаем файл css  -->
+</head>
+
+<body>
+    <h1> Привет </h1> 
+    <!-- До 6 уровней заголовков -->
+    
+    <p class="big_txt"> 
+        Далеко-далеко, <strong> за словесными горами </strong> <br> в стране гласных и согласных живут <em> <strong> рыбные тексты </strong> </em> .         
+    </p>  
+    <!-- Alt+Z - для читаемости кода перенос строк -->  
+
+<style>     /* Css вставка */
+    p,ol {color: darkgreen}
+</style>    
+    <p> 
+        Далеко-далеко, <br> в стране гласных и согласных живут <em> <strong> рыбные тексты </strong> </em> . 
+    </p>  
+        
+    <a href="https://ya.ru/" target="_blank" title="ya.ru"> Спросите у яндекса </a>
+    <!-- target атрибут при котором ссылка откроется в другом окне, а не в томже -->
+    <!-- title подсказка -->
+
+    <hr>   <!-- горизонтальная черта -->
+
+    <img src="https://prv0.lori-images.net/picture-lake-evergreens-mount-shuksan-washington-0007761908-preview.jpg" alt="Озеро" >
+    <p class="big_txt">картинка с абсолютной ссылкой</p>
+    
+    <!-- ul>li*3 -->
+    <ul>
+        <li>Вставлять картинки</li>
+        <li>htlm это верстка</li>
+        <li>посмотрим потом на язык JS</li>
+    </ul>
+
+    <!-- ol>li*3 -->
+    <ol>
+        <li>Скоро лето</li>
+        <li>Учиться еще год-два</li>
+        <li>Нужны крепкие знания и дипломы)</li>
+    </ol>
+
+</body>
+</html>
+
+<!-- Запуск файла - В проводнике контексное меню файла строка Запуск в проводнике -->
+<!-- Ctrl+/ - Закомментаровать всю строку без выделения  (/ рядом с Shift) -->
